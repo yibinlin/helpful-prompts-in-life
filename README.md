@@ -10,6 +10,14 @@ Many LLMs claim to have long context window sizes. However, [this paper](https:/
 
 Therefore I usually started a new chat when asking about long context questions, e.g. to summarize a PDF or a long article.
 
+## OpenAI o1-mini model
+
+- I found the model to be very verbose, so at the beginning of each section, I will put this initial prompt:
+
+```text
+For the rest of this conversation, DO NOT go over than 3 paragraphs for explanation unless there is an absolute need for complex subjects or answers. Please be concise.
+```
+
 ## Checking emails
 
 ### Email Summarization
