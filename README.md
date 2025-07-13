@@ -10,6 +10,12 @@ Many LLMs claim to have long context window sizes. However, [this paper](https:/
 
 Therefore I usually started a new chat when asking about long context questions, e.g. to summarize a PDF or a long article.
 
+## Anthropic Prompt Guide Recommendation for visual / frontend code generation ([link](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices#enhance-visual-and-frontend-code-generation))
+
+```text
+Don't hold back. Give it your all.
+```
+
 ## OpenAI o1-mini model
 
 - I found the model to be very verbose, so at the beginning of each section, I will put this initial prompt:
